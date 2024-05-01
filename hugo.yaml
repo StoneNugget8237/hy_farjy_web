@@ -25,11 +25,15 @@ languages:
         main:
         - name: 首页
           url: "./"
+        - name: 下载
+          url: "./download"
       params:
         profileMode:
           enabled: true
           title: 踏上更远的旅程...
           buttons:
+            - name: 开始游玩吧！
+              url: "./download"
             - name: 探索更多的故事...
               url: "./"
             - name: 访问Github仓库
