@@ -1,0 +1,38 @@
+baseURL: https://hy_farjy.ctnstudios.top/
+languageCode: en-us
+title: 隐藏之年：更远的旅程
+theme: hugo-PaperMod-7.0
+
+defaultContentLanguage: zh
+defaultContentLanguageInSubdir: true
+enableInlineShortcodes: true 
+enableEmoji: true 
+enableRobotsTXT: true
+
+relativeurls: true
+
+hasCJKLanguage: true
+
+copyright: "©2018~2023 [CTN Studios](https://www.ctnstudios.top) & [StoneNugget](https://www.mcmod.cn/author/29956.html)"
+
+params:
+  assets:
+    favicon: "https://www.freeimg.cn/i/2024/05/01/663208c90afe3.ico"
+
+languages:
+    zh:
+      menu:
+        main:
+        - name: 首页
+          url: "./"
+      params:
+        profileMode:
+          enabled: true
+          title: 踏上更远的旅程...
+          buttons:
+            - name: 探索更多的故事...
+              url: "./"
+            - name: 访问Github仓库
+              url: "https://github.com/StoneNugget8237/hy_farjy"
+
+
