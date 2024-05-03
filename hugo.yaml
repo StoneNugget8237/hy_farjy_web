@@ -29,6 +29,9 @@ languages:
         - name: 下载
           url: "./download"
           weight: 20
+        - name: 新闻
+          url: "./post"
+          weight: 30
       params:
         profileMode:
           enabled: true
@@ -37,7 +40,7 @@ languages:
             - name: 开始游玩吧！
               url: "./download"
             - name: 探索更多的故事...
-              url: "./"
+              url: "./post"
             - name: 访问Github仓库
               url: "https://github.com/StoneNugget8237/hy_farjy"
 
